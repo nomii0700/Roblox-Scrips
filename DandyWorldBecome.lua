@@ -119,7 +119,7 @@ end
 -- Run the script after key verification
 local function runMainScript()
     -- Your original script logic here
-    local Games = loadstring(game:HttpGet("https://pastefy.app/t4AVevAy/raw"))()
+    local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/S0up120/DandyWorldScript/refs/heads/main/Client-SidedDandy"))()
 
     for PlaceID, Execute in pairs(Games) do
         if PlaceID == game.PlaceId then
